@@ -1,0 +1,54 @@
+{
+  "version": "4.1.0",
+  "status": "OPERATIONAL_WITH_KNOWN_SCIENTIFIC_ERRORS_IN_ADVICE",
+  "software_tests": 477,
+  "subtests": 128,
+  "chrome_routes": 27,
+  "neural_lesson_tabs": 12,
+  "cifar_display_controls": 1,
+  "live_panel_status": "COMPLETE",
+  "scientific_advice_status": "CORRECTIONS_REQUIRED_AND_DISPLAYED",
+  "models_hallucination_free": false,
+  "qpu_jobs": 0,
+  "emails": 0,
+  "record_type": "First-party audit summary; not independent scientific acceptance",
+  "models": [
+    {
+      "role": "diagnostician",
+      "model": "qwen3.8:27b-q8_0",
+      "correct_and_well_formed": 24,
+      "cases": 24
+    },
+    {
+      "role": "patcher",
+      "model": "devstral-small-2:latest",
+      "correct_and_well_formed": 16,
+      "cases": 24
+    },
+    {
+      "role": "adversary",
+      "model": "asterion-gemma4:31b-ud-q6-k-xl",
+      "correct_and_well_formed": 24,
+      "cases": 24
+    },
+    {
+      "role": "verifier",
+      "model": "granite4.2:30b",
+      "correct_and_well_formed": 24,
+      "cases": 24
+    },
+    {
+      "role": "judge",
+      "model": "gpt-oss:120b",
+      "correct_and_well_formed": 24,
+      "cases": 24
+    }
+  ],
+  "evaluation_scope": "Adaptive operational tests with repeated question families, not a blind external model ranking",
+  "source_publication": "Complete local application remains unpublished",
+  "external_links": {
+    "reachable": 55,
+    "unverified": 7,
+    "confirmed_404_or_410": 0
+  }
+}

@@ -39,3 +39,7 @@ Read [REVIEW_GUIDE.md](REVIEW_GUIDE.md). Select one claim, reproduce the availab
 ## License scope
 
 Read [NOTICE.md](../NOTICE.md). The separate Bernstein repository is MIT-licensed. That license does not cover the full ASTERION or MIRANDA platforms.
+
+## Are the five models verified to be correct?
+
+No. The [3 October software/model audit](MODEL_SOFTWARE_AUDIT_2026-10-03.md) confirms execution and records finite checks. It also records scientific mistakes that passed the output format gate and were repeated by the judge. In the local application, read the correction notice and distinguish completed execution from a checked claim. Exact arithmetic, bounded experiments and human review remain necessary.
