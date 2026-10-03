@@ -8,6 +8,10 @@ ASTERION is a local research platform for exploring mathematical questions, test
 
 [Software and model audit](docs/MODEL_SOFTWARE_AUDIT_2026-10-03.md) · [Current research](docs/RESEARCH_STATUS.md) · [Help and replay](docs/HELP.md) · [Review guide](docs/REVIEW_GUIDE.md) · [Download overview](docs/ASTERION_Public_Overview_2026-10-02.pdf) · [Public checker](https://github.com/QuantumParadox/asterion-bernstein-check)
 
+## New research note: correlation sensitivity
+
+The [3 October working note](docs/correlation-2026-10-03/README.md) gives an exactly checked, model-specific condition using eleven fault-pair moments. It also reports every sensitivity result from 200,000 previously exposed experimental shots. Individual fault rates alone can permit a reversed decoder comparison in the declared model; selected pair conditions prevent it. Human review, novelty and hardware usefulness remain open.
+
 ## Latest software audit
 
 The local 4.1.0 update passed 477 tests and 128 subtests and was checked in Google Chrome. All five models and the closing judge ran successfully, but some scientific advice was wrong. The [audit report](docs/MODEL_SOFTWARE_AUDIT_2026-10-03.md) preserves those failures and explains the visible corrections. This repository still does not distribute the full application.
