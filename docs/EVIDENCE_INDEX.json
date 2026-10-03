@@ -1,0 +1,65 @@
+{
+  "schema": "project-public-evidence.v1",
+  "as_of": "2026-10-02",
+  "scope": "Selected historical local studies; full platform and theorem validation not established",
+  "evidence": [
+    {
+      "artifact": "asterion-bernstein-check",
+      "availability": "Public MIT repository",
+      "url": "https://github.com/QuantumParadox/asterion-bernstein-check",
+      "commit": "469b851402c96a72cc90e554b4328934c415dc89",
+      "claims": {
+        "test_methods": 13,
+        "recorded_polynomials": 40,
+        "synthetic_conversion_cases": 400,
+        "exact_point_comparisons": 2000,
+        "semantic_mutations_rejected": 240,
+        "python_checker_formally_verified": false
+      }
+    },
+    {
+      "artifact": "ASTERION_BERNSTEIN_FORMALIZATION_20261002_74b789136300eb1a.zip",
+      "sha256": "74b789136300eb1ac47a188f7b7689f2e15da6034e1b71508cb0609c4c5d12f8",
+      "availability": "Local; scoped review on request. Not included in this repository.",
+      "recorded_fresh_replay": "PASS",
+      "recorded_corruption_controls": 2,
+      "claims": {
+        "generic_lean_theorems": 2,
+        "polynomial_identities": 40,
+        "denominator_bounds": 40,
+        "full_qutrit_formalization": false
+      }
+    },
+    {
+      "artifact": "ASTERION_QUANTUM_UNCERTAINTY_20261002_40606416333c8454.zip",
+      "sha256": "40606416333c8454fcf7ded80ecda24513b6abbd1044d7d4fcec8cd1f48a98b2",
+      "availability": "Local; scoped review on request. Not included in this repository.",
+      "recorded_fresh_replay": "PASS",
+      "recorded_corruption_controls": 2,
+      "claims": {
+        "retained_shots": 6144,
+        "ibm_shots": 5632,
+        "quantum_inspire_shots": 512,
+        "outward_enclosures": 72,
+        "conditional_simultaneous_coverage_lower_bound": "0.95",
+        "assumption": "Stationary IID shots within each circuit/marginal",
+        "physical_drift_established": false
+      }
+    },
+    {
+      "artifact": "ASTERION_Quantum_Reliability_Pilot_20261002.zip",
+      "sha256": "a856ef070f0d333c01f2c8cebea12c438ff367a3b0b055d7d6849218d4f583a1",
+      "availability": "Local; scoped review on request. Not included in this repository.",
+      "recorded_fresh_replay": "PASS",
+      "claims": {
+        "simulation_paths": 28672,
+        "recounted_interval_decisions": 430080,
+        "exact_reference_intervals": 210,
+        "negative_controls_rejected": 6,
+        "matlab_rows": 210,
+        "scale_gate": "NOT_MET",
+        "novelty": "NOT_ESTABLISHED_STANDARD_COROLLARY"
+      }
+    }
+  ]
+}
