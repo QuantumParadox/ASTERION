@@ -8,6 +8,10 @@ ASTERION is a local research platform for exploring mathematical questions, test
 
 [Software and model audit](docs/MODEL_SOFTWARE_AUDIT_2026-10-03.md) · [Current research](docs/RESEARCH_STATUS.md) · [Help and replay](docs/HELP.md) · [Review guide](docs/REVIEW_GUIDE.md) · [Download overview](docs/ASTERION_Public_Overview_2026-10-02.pdf) · [Public checker](https://github.com/QuantumParadox/asterion-bernstein-check)
 
+## New research note: observation limits and compilation checks
+
+The [3 October observation study](docs/observability-2026-10-03/README.md) checks exactly when identical syndrome data can support opposite decoder rankings. It also preserves a negative calibration result on recorded measurements and a comparison of one saved adder artifact with a known exact baseline. MATLAB passed on five hosts, and two NVIDIA GPUs replayed the compiled unitary. New diagnostics include 3,072 IBM physical shots and 768 Quantum Inspire emulator shots. Human review and novelty remain open; no physical-shot saving or quantum advantage was established.
+
 ## New research note: correlation sensitivity
 
 The [3 October working note](docs/correlation-2026-10-03/README.md) gives an exactly checked, model-specific condition using eleven fault-pair moments. It also reports every sensitivity result from 200,000 previously exposed experimental shots. Individual fault rates alone can permit a reversed decoder comparison in the declared model; selected pair conditions prevent it. Human review, novelty and hardware usefulness remain open.
