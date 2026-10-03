@@ -40,6 +40,7 @@ The original answers remain unchanged. Exact corrections are bound to their evid
 - Replaced generated Python execution in the two-function coding benchmark with a restricted interpreter and explicit resource limits.
 - Corrected secondary inference endpoint and reasoning-mode selection.
 - Repaired five Discovery Studio section links and added model-role explanations and operating instructions.
+- Moved the model guide's styling into a same-origin stylesheet after Chrome blocked its inline style. The content security policy was preserved; the final guide has the intended width and no browser console errors.
 
 The model-runtime release was checked against its published asset digest. Official reference: [Ollama releases](https://github.com/ollama/ollama/releases). Model catalogs consulted included [Qwen](https://ollama.com/library/qwen3.8/tags), [Devstral](https://ollama.com/library/devstral-small-2/tags), [Gemma](https://ollama.com/library/gemma4/tags), [Granite](https://ollama.com/library/granite4.2) and [GPT-OSS](https://ollama.com/library/gpt-oss).
 
